@@ -5,15 +5,16 @@
 
 .head{
     background-color: rgb(255, 255, 255);
-    height: 85px;
+    height: 130px;
     width: 100%;
-    padding: 20px;
+    padding: 45px;
     display: flex;
+    border-bottom: solid #4b230f 5px;
 }
 
 .corpo{
     background-color: #FFD43E;
-    height: 100vb;
+    height: 82.5vb;
     width: 100%;
 }
 .pesquisa{
@@ -38,6 +39,24 @@
 
 .brasil, .carrinho, .perfil{
     display: flex;
-    margin-left: 30px;
+    margin-left: 40px;
     align-items: center;
+}
+
+.mm{
+    position: absolute;
+    right: 43%;
+    top: 3%;
+}
+
+.barra-esquerda{
+    position: absolute;
+    bottom: 0%;
+    left: 0%;
+}
+
+.barra-direita{
+    position: absolute;
+    bottom: 0%;
+    right: 0%;
 }
