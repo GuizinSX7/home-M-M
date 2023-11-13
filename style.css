@@ -1,9 +1,9 @@
-*{
+* {
     padding: 0;
     margin: 0;
 }
 
-.head{
+.head {
     background-color: rgb(255, 255, 255);
     height: 130px;
     width: 100%;
@@ -12,50 +12,53 @@
     border-bottom: solid #4b230f 5px;
 }
 
-.corpo{
+.corpo {
     background-color: #FFD43E;
     height: 82.5vb;
     width: 100%;
 }
-.pesquisa{
+
+.pesquisa {
     display: flex;
     align-items: center;
     margin-left: 50%;
 }
 
-.pesquisa input{
+.pesquisa input {
     border-radius: 15px;
     width: 200px;
     background-color: #C8C8C8;
     padding: 5px;
 }
 
-#lupa{
+#lupa {
     background: url("img/procurar.png") no-repeat right / 1.3em;
     padding-left: 1.3em;
     background-color: #C8C8C8;
 
 }
 
-.brasil, .carrinho, .perfil{
+.brasil,
+.carrinho,
+.perfil {
     display: flex;
     margin-left: 40px;
     align-items: center;
 }
 
-.mm{
+.mm {
     position: absolute;
     right: 43%;
     top: 3%;
 }
 
-.barra-esquerda{
+.barra-esquerda {
     position: absolute;
     bottom: 0%;
     left: 0%;
 }
 
-.barra-direita{
+.barra-direita {
     position: absolute;
     bottom: 0%;
     right: 0%;
